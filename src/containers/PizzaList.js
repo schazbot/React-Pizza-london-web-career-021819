@@ -15,7 +15,7 @@ class PizzaList extends Component {
         </thead>
         <tbody>
           {
-            //render Pizza here
+            this.props.allThePizzas.map((pizza, index) => <Pizza pizza={pizza} key={index} selectPizza={this.props.selectPizza} />)
           }
         </tbody>
       </table>
