@@ -24,4 +24,6 @@ class PizzaList extends Component {
 
 }
 
+
+
 export default PizzaList;
